@@ -1,0 +1,152 @@
+/* container */
+
+.outer-container{
+    padding:0 !important;
+    margin-left:0px !important;
+    margin-right:0px !important;
+}
+
+.container{
+    padding:0;
+    margin:0;
+}
+
+/* removing default margin & padding from bootstrap for div */
+
+.div{
+    padding:0 !important;
+    margin:0 !important;
+}
+
+/* header */
+
+.logo{
+    text-align: center;
+}
+
+/* section 1 */
+.sec1{
+    height:400px;
+    padding:0px !important;
+    margin:0 !important;
+}
+
+.sec1_image{
+    background-image: url("image1.jpg");
+    margin:0 !important;
+    padding:0 !important;
+    background-size:cover; 
+    height: 400px;;
+}
+
+.sec1_text{
+font-family: Arial;
+font-size: 24px;
+line-height: 30px;
+color: #ffffff;
+margin-top:20%;
+}
+
+.sec1_button{
+background-color: #0072ba;
+font-family: Arial;
+font-size: 18px;
+color: #ffffff
+}
+
+.button:hover{
+    background-color: #0072ba !important;
+}
+
+/* space between sections 1 & 2*/
+
+.grey-space{
+height:20px;
+background-color:#DCDCDC;
+}
+
+/* section 2 */
+
+.sec2_image{
+padding:0 !important;
+margin: 0 !important;
+height: 360px;
+width: 100%;
+background-size:cover;
+}
+
+.sec2_headline{
+font-family: Arial Black;
+font-size: 18px;
+line-height: 24px;
+color: #1e1944;
+margin-top:10%;
+}
+
+.sec2_paragraph{
+font-family: Arial;
+font-size: 16px;
+line-height: 20px;
+color: #656b72;
+}
+
+.sec2_button{
+background-color: #40b062;
+font-family: Arial;
+font-size: 16px;
+color: #ffffff;
+justify-content: center;
+margin-left:5%;
+padding:0px;
+margin-top:5%;
+}
+
+/* section 3 */
+
+.sec3_image{
+padding:0 !important;
+margin: 0 !important;
+height: 360px;
+background-size: cover;
+width: 100%;
+}
+
+.sec3_headline{
+font-family: Arial Black;
+font-size: 18px;
+line-height: 24px;
+color: #1e1944;
+}
+
+.sec3_paragraph{
+font-family: Arial;
+font-size: 16px;
+line-height: 20px;
+color: #656b72;
+}
+
+.sec3_button{
+background-color: #22b1da;
+font-family: Arial;
+font-size: 16px;
+color: #ffffff;
+justify-content: center;
+}
+
+/* footer */
+
+.footer{
+background-color: #121921;
+font-family: Arial;
+font-size: 13px;
+color: #ffffff;
+text-align:center;
+height:100px;
+}
+
+/* copyright */
+
+.text{
+margin-top:auto;
+margin-bottom:auto;
+}
